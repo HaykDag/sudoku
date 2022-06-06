@@ -1,0 +1,83 @@
+body{
+    text-align: center;
+}
+.header {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hr {
+ width: 150px;
+}
+#wrong {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   color: rgb(232, 101, 101);
+}
+.number {
+    width: 44px;
+    border: 1px solid black;
+    margin: 2px;
+    font-size: 25px;
+    font-size: 30px ;
+    background-color: aqua;
+}
+#board {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    height: 450px;
+}
+#digits {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+
+}
+.cell {
+    display: flex;
+    width: 48px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px ;
+    background-color: rgb(124, 208, 148);
+}
+
+.cell,
+.number:hover{
+    cursor: pointer;
+}
+.selectedNumber {
+    background-color: gray;
+}
+.empty-cells {
+    background-color: lightblue;
+}
+.vertical-line {
+    display: flex;
+    width: 48px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px ;
+    border-top: 1px solid black;
+    
+}
+.horizontal-line {
+    display: flex;
+    width: 48px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px ;
+    border-left: 1px solid black;
+}
